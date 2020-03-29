@@ -1,0 +1,294 @@
+.nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:50px;
+    background-color: black;
+    z-index:3;
+}
+.nav a{
+    color:rgb(251, 255, 0);
+}
+.nav a:link {
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgb(145, 255, 0);
+}
+.nav div{
+    display:inline-block;
+    left:0;
+    padding:15px;
+    font-size:25px;
+    color: rgb(251, 255, 0);
+    font-family:'Liu Jian Mao Cao', cursive;
+    z-index:3;
+}
+.nav ul{
+    position: absolute;
+    right:5px;
+    top:10px;
+}
+.nav ul li{
+    display:inline-block;
+}
+.myvid video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:20vw;
+    min-height:100%;
+    height:100%;
+}
+@media only screen and (min-width:768px){
+    .myvid video{
+        width:100vw;
+        height:auto;
+    }
+}
+.myvid{
+    z-index:1;
+}
+.myvid2 video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:20vw;
+    min-height:100%;
+    height:100%;
+}
+@media only screen and (min-width:768px){
+    .myvid2 video{
+        width:100vw;
+        height:auto;
+    }
+}
+.myvid2{
+    z-index:1;
+}
+.myvid3 video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:20vw;
+    min-height:100%;
+    height:100%;
+}
+@media only screen and (min-width:768px){
+    .myvid3 video{
+        width:100vw;
+        height:auto;
+    }
+}
+.myvid3{
+    z-index:1;
+}
+.myvid4 video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:20vw;
+    min-height:100%;
+    height:100%;
+}
+@media only screen and (min-width:768px){
+    .myvid4 video{
+        width:100vw;
+        height:auto;
+    }
+}
+.myvid4{
+    z-index:1;
+}
+.myvid5 video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:20vw;
+    min-height:100%;
+    height:100%;
+}
+@media only screen and (min-width:768px){
+    .myvid5 video{
+        width:100vw;
+        height:auto;
+    }
+}
+.myvid5{
+    z-index:1;
+}
+.images{
+    position:absolute;
+    z-index:2;
+    margin:80px auto 0 auto;
+    text-align:center;
+}
+.images ul{
+    padding:0;
+}
+.images ul li{
+    list-style:none;
+    display:inline-block;
+    margin:20px;
+    width:300px;
+}
+.images ul li img{
+    width:200px;
+    height:130px;
+    border-radius: 25px;
+}
+.images ul li p{
+    text-align:center;
+    font-size:100%;
+    color: rgb(115, 255, 0);
+}
+.images ul li a:link{
+    text-decoration:none;
+}
+.images ul li:hover{
+    transform: scale3d(1.3,1.3,1.3);
+}
+.images h1{
+    color:rgb(242, 255, 59);
+}
+.images2{
+    position:absolute;
+    z-index:2;
+    margin:80px auto 0 auto;
+    text-align:center;
+}
+.images2 ul{
+    padding:0;
+}
+.images2 ul li{
+    list-style:none;
+    display:inline-block;
+    margin:20px;
+    width:300px;
+}
+.images2 ul li img{
+    width:200px;
+    height:130px;
+    border-radius: 25px;
+}
+.images2 ul li p{
+    text-align:center;
+    font-size:100%;
+    color: rgb(115, 255, 0);
+}
+.images2 ul li a:link{
+    text-decoration:none;
+}
+.images2 ul li:hover{
+    transform: scale3d(1.3,1.3,1.3);
+}
+.images2 h1{
+    color:rgb(242, 255, 59);
+}
+.images3{
+    position:absolute;
+    z-index:2;
+    margin:80px auto 0 auto;
+    text-align: center;
+}
+.images3 ul{
+    padding:0;
+}
+.images3 ul li{
+    list-style:none;
+    display:inline-block;
+    margin:20px;
+    width:300px;
+}
+.images3 ul li img{
+    width:200px;
+    height:130px;
+    border-radius: 25px;
+}
+.images3 ul li p{
+    text-align:center;
+    font-size:100%;
+    color: rgb(115, 255, 0);
+}
+.images3 ul li a:link{
+    text-decoration:none;
+}
+.images3 ul li:hover{
+    transform: scale3d(1.3,1.3,1.3);
+}
+.images3 h1{
+    color:rgb(242, 255, 59);
+}
+.images5{
+    position: relative;
+    z-index:2;
+    margin:80px auto 0 0px;
+    text-align:center;
+}
+.images5 ul{
+    padding:0;
+}
+.images5 ul li{
+    list-style:none;
+    display: inline-block;
+    margin:20px;
+    width:300px;
+}
+.images5 ul li img{
+    width:200px;
+    height:130px;
+    border-radius: 25px;
+}
+.images5 ul li p{
+    text-align:center;
+    font-size:100%;
+    color: rgb(115, 255, 0);
+}
+.images5 ul li a:link{
+    text-decoration:none;
+}
+.images5 ul li:hover{
+    transform: scale3d(1.3,1.3,1.3);
+}
+.images5 h1{
+    color:rgb(242, 255, 59);
+}
+.images4{
+    position: relative;
+    z-index:2;
+    margin:80px auto 0 0;
+    text-align:center;
+}
+.images4 ul{
+    padding:0;
+}
+.images4 ul li{
+    list-style:none;
+    display:inline-block;
+    margin:20px;
+    width:300px;
+}
+.images4 ul li img{
+    width:200px;
+    height:130px;
+    border-radius: 25px;
+}
+.images4 ul li p{
+    text-align:center;
+    font-size:100%;
+    color: rgb(231, 172, 255);
+}
+.images4 ul li a:link{
+    text-decoration:none;
+}
+.images4 ul li:hover{
+    transform: scale3d(1.3,1.3,1.3);
+}
+.images4 h1{
+    color:rgb(231, 172, 255);
+}
+img {
+    width: 100%;
+    height: auto;
+  }
